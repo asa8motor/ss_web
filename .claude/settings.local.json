@@ -1,7 +1,18 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python3 *)"
+      "Bash(python3 *)",
+      "Bash(grep -v '^0$\\\\|^D9D9D9\\\\|rgba\\\\|inset\\\\|shadow\\\\|^25$\\\\|^60$\\\\|^10px$\\\\|^15px$')",
+      "Bash(git checkout *)",
+      "Bash(git add *)",
+      "Bash(git rm *)",
+      "Bash(brew list *)",
+      "Read(//opt/homebrew/bin/**)",
+      "Bash(git config *)",
+      "Read(//Users/asa8motor/.config/gh/**)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' -X POST -H 'Authorization: token __CMDSUB_OUTPUT__')",
+      "Bash(git merge *)",
+      "Bash(git push *)"
     ]
   }
 }
